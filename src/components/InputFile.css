@@ -1,0 +1,45 @@
+#commands {
+    padding: 20px;
+    border-radius: 25px;
+    background-color: #946BD6;
+    margin: 5px 5px;
+}
+
+.commands {
+    background-color: #946BD6;
+}
+
+.ListItem {
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.ListItem-sent {
+    color: rgb(0, 255, 0);
+}
+
+#file {
+    display: none;
+}
+
+.btn-input-file {
+    width: auto;
+}
+
+#command-list {
+    height: 600px;
+    flex-grow: 1;
+    margin-bottom: 5px;
+}
+
+#input-file {
+    align-self: center;
+}
+
+#code-field {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,23 @@
+.btn {
+    cursor: pointer;
+    width: 230px;
+    border: none;
+    color: white;
+    text-align: center;
+    background-color: hsl(263, 92%, 23%);
+    padding: 8px 10px;
+    transition: 0.2s;
+}
+
+.btn:hover {
+    background-color: #4B2A82;
+}
+
+.btn:active {
+    background-color: hsl(264, 95%, 7%);
+}
+
+.btn:disabled {
+    cursor: not-allowed;
+    background-color: #cccccc;
+}
